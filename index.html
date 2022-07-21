@@ -11,33 +11,50 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="top-header">
-      <nav class="navigation">
-        <a class="logo link" href="./index.html">Web<span class="logo logo-black">Studio</span> </a>
-        <ul class="menu list">
-          <li class="menu-item">
-            <a class="nav-link link current" href="./index.html">Студия</a>
+      <div class="container page-header-container">
+        <nav class="navigation">
+          <a class="logo link" href="./index.html"
+            >Web<span class="logo logo-black">Studio</span>
+          </a>
+          <ul class="menu list menu-list-container">
+            <li class="menu-item">
+              <a class="nav-link link current" href="./index.html">Студия</a>
+            </li>
+            <li class="menu-item">
+              <a class="nav-link link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="menu-item">
+              <a class="nav-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="list container list-contact-container">
+          <li>
+            <a
+              class="contact link contact-mail"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="menu-item">
-            <a class="nav-link link" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="menu-item">
-            <a class="nav-link link" href="">Контакты</a>
+          <li>
+            <a class="contact link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-
-      <ul class="list">
-        <li>
-          <a class="contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="contact link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main>
@@ -54,25 +71,29 @@
           <li class="benefits-item">
             <h3 class="benefits-title">Внимание к деталям</h3>
             <p class="section-description">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
             </p>
           </li>
           <li>
             <h3 class="benefits-title">Пунктуальность</h3>
             <p class="suptitle">
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
             </p>
           </li>
           <li>
             <h3 class="benefits-title">Планирование</h3>
             <p class="section-description">
-              Равным образом консультация с широким активом в значительной степени обуславливает.
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
             </p>
           </li>
           <li>
             <h3 class="benefits-title">Современные технологии</h3>
             <p class="section-description">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
             </p>
           </li>
         </ul>
@@ -82,10 +103,20 @@
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
-            <img src="./images/service-1.jpg" alt="планшет и клавиатура" width="370" height="294" />
+            <img
+              src="./images/service-1.jpg"
+              alt="планшет и клавиатура"
+              width="370"
+              height="294"
+            />
           </li>
           <li>
-            <img src="./images/service-2.jpg" alt="телефон и планшет" width="370" height="294" />
+            <img
+              src="./images/service-2.jpg"
+              alt="телефон и планшет"
+              width="370"
+              height="294"
+            />
           </li>
           <li>
             <img
@@ -112,7 +143,12 @@
             <p class="job-title" lang="en">Product Designer</p>
           </li>
           <li>
-            <img src="./images/master-repina-2.jpg" alt="Ольга Репина" width="270" height="260" />
+            <img
+              src="./images/master-repina-2.jpg"
+              alt="Ольга Репина"
+              width="270"
+              height="260"
+            />
             <h3 class="team-member">Ольга Репина</h3>
             <p class="job-title" lang="en">Frontend Developer</p>
           </li>
@@ -141,7 +177,9 @@
     </main>
 
     <footer class="footer">
-      <a class="logo link" href="./index.html">Web<span class="logo logo-white">Studio</span> </a>
+      <a class="logo link" href="./index.html"
+        >Web<span class="logo logo-white">Studio</span>
+      </a>
 
       <ul class="list">
         <li>
@@ -154,7 +192,9 @@
           >
         </li>
         <li>
-          <a class="contact link" href="mailto:info@example.com">info@example.com</a>
+          <a class="contact link" href="mailto:info@example.com"
+            >info@example.com</a
+          >
         </li>
         <li>
           <a class="contact link" href="tel:+380991111111">+38 099 111 11 11</a>
